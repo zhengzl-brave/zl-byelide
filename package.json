@@ -15,7 +15,7 @@
     "lint:style": "stylelint **/*.{vue,css}",
     "lint:stage": "lint-staged",
     "check": "tsno run ./scripts/check.ts",
-    "prepack": "husky install",
+    "prepare": "husky install",
     "commit": "git-cz",
     "commitlint": "commitlint --edit"
   },
